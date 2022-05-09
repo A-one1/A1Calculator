@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/A1Calculator/static/css/main.16f6ef8e.css",
+    "main.js": "/A1Calculator/static/js/main.f3069e30.js",
+    "static/js/787.85bb9051.chunk.js": "/A1Calculator/static/js/787.85bb9051.chunk.js",
+    "index.html": "/A1Calculator/index.html",
+    "main.16f6ef8e.css.map": "/A1Calculator/static/css/main.16f6ef8e.css.map",
+    "main.f3069e30.js.map": "/A1Calculator/static/js/main.f3069e30.js.map",
+    "787.85bb9051.chunk.js.map": "/A1Calculator/static/js/787.85bb9051.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.16f6ef8e.css",
+    "static/js/main.f3069e30.js"
+  ]
+}
