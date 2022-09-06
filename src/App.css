@@ -23,7 +23,7 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
-
+\\
 .App-link {
   color: #61dafb;
 }
@@ -36,3 +36,67 @@
     transform: rotate(360deg);
   }
 }
+
+/* 
+table Customers {
+  customer_id int
+  username varchar
+  password varchar
+  name varchar
+  phone_number int
+  address varchar
+  rewards_points int
+  past_orders int
+} 
+
+table Employees {
+  employee_id int
+  name varchar
+  ssn int
+  password varchar
+}
+
+table MenuItems {
+  item_id int
+  name varchar
+  price int
+  description varchar
+  stock int
+}
+
+table Orders {
+  order_id int
+  date int
+  customer int
+  items int
+  tip_amount int
+  price_total int
+  status int   // Delivery or Pick up?
+  customer_comments varchar
+  assigned_driver int
+}
+
+table Service{
+  zip_code int
+  availability boolean
+}
+
+ref {
+  MenuItems.item_id < Orders.items
+}
+
+ref {
+  Customers.customer_id < Orders.customer
+}
+
+ref {
+  Orders.assigned_driver < Employees.employee_id
+}
+
+ref {
+  Orders.order_id < Customers.past_orders
+}
+
+
+
+Ref: "Service"."zip_code" < "Customers"."address" */
